@@ -1,5 +1,5 @@
 
-> 还在愁Java并发知识总是学了忘？项目中没有练手的地方？ 或许只是你没有这方面的意识！来这就对了！从理论到实战，系统掌握Java并发编程核心技术，你也可以是一个并发大师！
+还在愁Java并发知识总是学了忘？项目中没有练手的地方？ 或许只是你没有这方面的意识！来这就对了！从理论到实战，系统掌握Java并发编程核心技术，你也可以是一个并发大师！
 项目地址：[https://github.com/penghs520/concurrency-exercises](https://github.com/penghs520/concurrency-exercises)
 这个项目当然是Claude Code生成的啦，消耗了40$ tokens，质量很不错，欢迎你来提提PR，点点Star。
 另外我还制作了一个MySQL的练手教程，项目地址：[https://github.com/penghs520/mysql-exercises](https://github.com/penghs520/mysql-exercises)，质量也是非常棒，五星推荐！ 后面有时间我还会陆续推出更多的练习项目。
