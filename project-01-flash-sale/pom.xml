@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.concurrency</groupId>
+        <artifactId>concurrency-exercises</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>project-01-flash-sale</artifactId>
+    <packaging>pom</packaging>
+    <name>Project 01 - Flash Sale System</name>
+    <description>秒杀系统：超卖防护、库存一致性</description>
+
+    <modules>
+        <module>flashsale-starter</module>
+        <module>solution/flashsale-v1-synchronized</module>
+        <module>solution/flashsale-v2-reentrantlock</module>
+        <module>solution/flashsale-v3-optimized</module>
+        <module>flashsale-benchmark</module>
+    </modules>
+</project>

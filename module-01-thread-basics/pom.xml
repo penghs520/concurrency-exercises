@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.concurrency</groupId>
+        <artifactId>concurrency-exercises</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>module-01-thread-basics</artifactId>
+    <name>Module 01 - Thread Basics</name>
+    <description>线程基础：线程创建、生命周期、中断机制</description>
+</project>
