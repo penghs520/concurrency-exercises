@@ -2,7 +2,7 @@ package com.concurrency.basics.demo;
 
 /**
  * Demo 02: 线程生命周期与状态转换
- *
+ * <p>
  * 线程的6种状态：
  * 1. NEW          - 新建
  * 2. RUNNABLE     - 可运行（就绪/运行）
@@ -87,7 +87,7 @@ public class D02_ThreadLifecycle {
             synchronized (lock) {
                 System.out.println("T1获取到锁，持有3秒");
                 try {
-                    Thread.sleep(3000);
+                    Thread.sleep(3000);//睡眠，并不释放锁，导致t2想要获取锁只能阻塞
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -96,8 +96,9 @@ public class D02_ThreadLifecycle {
         }, "T1");
 
         Thread t2 = new Thread(() -> {
+            long start = System.currentTimeMillis();
             synchronized (lock) {
-                System.out.println("T2获取到锁");
+                System.out.println("T2获取到锁，阻塞了：" + (System.currentTimeMillis() - start) + "ms");
             }
         }, "T2");
 
@@ -140,6 +141,7 @@ public class D02_ThreadLifecycle {
         System.out.println("等待线程状态: " + waitingThread.getState()); // WAITING
 
         // 唤醒线程
+        //lock.notify();  必须先获得锁，才有资格通知，否则抛出异常：java.lang.IllegalMonitorStateException: current thread is not owner
         synchronized (lock) {
             System.out.println("主线程唤醒等待线程");
             lock.notify();
