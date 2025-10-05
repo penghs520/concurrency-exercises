@@ -1,16 +1,15 @@
 
 还在愁Java并发知识总是学了忘？项目中没有练手的地方？ 或许只是你没有这方面的意识！来这就对了！从理论到实战，系统掌握Java并发编程核心技术，你也可以是一个并发大师！
-项目地址：[https://github.com/penghs520/concurrency-exercises](https://github.com/penghs520/concurrency-exercises)
-这个项目当然是Claude Code生成的啦，消耗了40$ tokens，质量很不错，欢迎你来提提PR，点点Star。
-另外我还制作了一个MySQL的练手教程，项目地址：[https://github.com/penghs520/mysql-exercises](https://github.com/penghs520/mysql-exercises)，质量也是非常棒，五星推荐！ 后面有时间我还会陆续推出更多的练习项目。
-
-
 
 ## 项目简介
 
 这个项目包含了**8个知识点模块**，覆盖Java并发核心理论和API，每个模块都提供了理论教程、Demo、2~3个练习题和答案，以及**3个实战项目**，提供真实业务场景的并发解决方案，并且每个场景都提供了多套解决方案。
 
 通过理论 +练习 +  实战，效果非常好，希望你可以在一至两周内熟练掌握所有Java并发相关的知识，真正成为一个Java并发高手，而不只是学了就忘。
+
+这个项目当然是Claude Code生成的啦，消耗了40$ tokens，质量很不错，欢迎你来提提PR，点点Star。
+
+另外我还制作了一个MySQL的练手教程，项目地址：[https://github.com/penghs520/mysql-exercises](https://github.com/penghs520/mysql-exercises)，质量也是非常棒，五星推荐！ 后面有时间我还会陆续推出更多的练习项目。
 
 
 ---
